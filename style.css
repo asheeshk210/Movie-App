@@ -123,3 +123,24 @@ main {
 .movie:hover .overview {
     transform: translateY(0);
 }
+
+@media only screen and (max-width: 400px) {
+    .search {
+        position: absolute;
+        top: 40px;
+        /* padding: auto; */
+        height: 1vw;
+        margin-top: 2%;
+    }
+    header {
+        padding: 2.5rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .brand {
+        position: absolute;
+        font-size: 6vw;
+        top: 1%;
+    }
+}
